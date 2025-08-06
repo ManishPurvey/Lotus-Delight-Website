@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lotus Delight</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background-color: #ffb6c1; padding: 20px; text-align: center; }
+        .logo { max-width: 150px; }
+        .container { padding: 20px; }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+            border-radius: 8px;
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+        .whatsapp {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 30px;
+            text-decoration: none;
+        }
+        footer {
+            background: #eee;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        .social-icons img {
+            width: 24px;
+            margin: 0 8px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Lotus Delight" class="logo">
+        <h1>Lotus Delight</h1>
+    </header>
+    <div class="container">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product"><img src="images/peri_peri.jpg" alt="Peri Peri"><h3>Peri Peri</h3><p>80g Jar</p></div>
+            <div class="product"><img src="images/cream_onion.jpg" alt="Cream & Onion"><h3>Cream & Onion</h3><p>80g Jar</p></div>
+            <div class="product"><img src="images/himalayan_salt.jpg" alt="Himalayan Salt"><h3>Himalayan Salt</h3><p>80g Jar</p></div>
+            <div class="product"><img src="images/tangy_tomato.jpg" alt="Tangy Tomato"><h3>Tangy Tomato</h3><p>80g Jar</p></div>
+            <div class="product"><img src="images/kheer.jpg" alt="Makhana Kheer"><h3>Makhana Kheer</h3><p>100g Jar</p></div>
+            <div class="product"><img src="images/cookies.jpg" alt="Makhana Cookies"><h3>Makhana Cookies</h3><p>150g Box</p></div>
+        </div>
+    </div>
+    <a href="https://wa.me/919341502581" class="whatsapp">Order on WhatsApp</a>
+    <footer>
+        <div>
+            <a href="about.html">About Us</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="privacy-policy.html">Privacy Policy</a> |
+            <a href="return-policy.html">Return & Cancellation Policy</a>
+        </div>
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram"></a>
+            <a href="https://facebook.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn"></a>
+            <a href="https://twitter.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+        </div>
+        <p>Right to reserved Lotus Delight © 2025</p>
+    </footer>
+</body>
+</html>
